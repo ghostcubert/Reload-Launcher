@@ -2166,6 +2166,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "obfstr"
+version = "0.4.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7cf5f1acbf6ef57cef9d127e72c4afd01d6b08692616fd09afad7f7807d6eb78"
+
+[[package]]
 name = "objc2"
 version = "0.6.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2789,6 +2795,7 @@ checksum = "d6f6ff9a378485b298a5286656da665ba74413d36db0979633275d2e708145d4"
 name = "reload-launcher"
 version = "0.1.0"
 dependencies = [
+ "obfstr",
  "serde",
  "serde_json",
  "tauri",
