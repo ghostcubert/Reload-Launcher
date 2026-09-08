@@ -30,7 +30,7 @@ Created by [Ghostcubert](https://github.com/Ghostcubert) to work with [Reload](h
 1) Install [Rust](https://rust-lang.org/tools/install/), [C++ Build Tools](https://visualstudio.microsoft.com/downloads/?q=build+tools), and [Bun](https://bun.com/docs/installation).
 2) **Download** and **Extract** Reload Launcher to a safe location.
 3) Run **"launcher_install.bat"** to install all the required modules.
-4) Go to **src-tauri/Config/config.rs** in the directory you extracted Reload Launcher into.
+4) Go to **src-tauri/utils/config.rs** in the directory you extracted Reload Launcher into.
 5) Open it, set your backend ip, bot client id, and season number.
 6) Run **"launcher_test.bat"**, to test things.
 7) Run **"launcher_build.bat"** if everything looks ready for release.
