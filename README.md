@@ -16,7 +16,6 @@ Created by [Ghostcubert](https://github.com/Ghostcubert) to work with [Reload](h
     * [ ] Online/Offline
 * Library:
     * [ ] Add builds.
-    * [ ] How many builds can be imported.
     * [ ] What specific version can be imported.
     * [ ] **Maybe** downloadable version.
 * Settings:

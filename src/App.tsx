@@ -1,5 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "../public/versions/Season20.jpg";
 import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <main className="container">
-      <h1>Welcome to Tauri + React</h1>
+      <h1>Welcome Reload Launcher</h1>
 
       <div className="row">
         <a href="https://vite.dev" target="_blank">
@@ -23,7 +23,7 @@ function App() {
         <a href="https://tauri.app" target="_blank">
           <img src="/tauri.svg" className="logo tauri" alt="Tauri logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://example.com" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
